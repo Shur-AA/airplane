@@ -29,6 +29,9 @@
     animation: jump 1s;
     animation-delay: .4s;
     animation-timing-function: cubic-bezier(.71,-0.09,.64,1.08);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    
 }
 
 .welcome-button {
@@ -116,6 +119,7 @@
       animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
+      opacity: 1;
     }
   
     0% {
