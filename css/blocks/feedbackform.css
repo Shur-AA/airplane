@@ -202,6 +202,6 @@ textarea, input {
   transition: .4s;
 }
 
-/* .form-button--button:focus {
-    border: 7px solid red;
-} */
+.form-button--button {
+    outline: none;
+}
