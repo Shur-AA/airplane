@@ -1,0 +1,63 @@
+/* ----------news-----------*/
+
+.lastnews-box {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.lastnews {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.lastnews-link {
+    color: black;
+    text-decoration: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastnews-item {
+    margin-left: 20px;
+    flex: 1 0 250px;
+}
+
+.lastnews-item:first-child {
+    padding-top: 0;
+}
+
+.lastnews-avatar {
+    width: 160px;
+    height: 160px;
+    background: center center no-repeat;
+    background-size: 100%;
+    border-radius: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.lastnews-date {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #656464;
+    padding-bottom: 2px;
+}
+
+.lastnews-title {
+    font-size: 17.5px;
+    font-weight: bold;
+    color: #221f1f;
+}
+
+.lastnews-desc p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-block-start: 3px;
+    letter-spacing: -0.05px;
+    margin-block-end: 0;
+}
+

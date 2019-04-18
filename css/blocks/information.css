@@ -1,0 +1,19 @@
+.information {
+    width: inherit;
+    height: fit-content;
+    color:  white;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container--info {
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 15px;
+    width: inherit;
+    background-color: #4b73b5;
+    background-image: url('../../img/pattern1.png');
+    background-position: left;
+}
+

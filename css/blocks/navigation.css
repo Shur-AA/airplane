@@ -1,0 +1,186 @@
+.navbar {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #4b73b5;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: unset;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link--active .nav_text {
+    color: black;
+}
+
+.nav-link:hover .nav_text {
+    color: black;
+    transition: .4s;
+}
+
+.nav_text {
+    letter-spacing: 2.4px;
+}
+
+.nav_icon {
+    width: 23px;
+    height: 18px;
+    background: center center no-repeat;
+    margin-right: 15px;
+}
+
+.nav_icon--main {
+    position: relative;
+}
+
+.nav_icon--main:after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -95px -101px;
+    transition: .4s;
+}
+
+.nav_icon--main:before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -10px -63px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.nav-link:hover .nav_icon--main:after {
+    opacity: 0;
+}
+
+.nav-link:hover .nav_icon--main:before {
+    opacity: 1;
+}
+
+.nav_link--active .nav_icon--main:before {
+    opacity: 1;
+}
+.nav_link--active .nav_icon--main:after {
+    opacity: 0;
+}
+
+
+.nav_icon--star {
+    position: relative;
+}
+
+.nav_icon--star:after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -10px -101px;
+    transition: .4s;
+}
+
+.nav_icon--star:before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -53px -101px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.nav-link:hover .nav_icon--star:after {
+    opacity: 0;
+}
+
+.nav-link:hover .nav_icon--star::before {
+    opacity: 1;
+}
+
+.nav_link--active .nav_icon--star:before {
+    opacity: 1;
+}
+.nav_link--active .nav_icon--star:after {
+    opacity: 0;
+}
+
+
+.nav_icon--pilot {
+    position: relative;
+}
+
+.nav_icon--pilot:after {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -53px -63px;
+    transition: .4s;
+}
+
+.nav_icon--pilot:before {
+    content: '';
+    display: block;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../../img/sprite.png") -96px -63px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.nav-link:hover .nav_icon--pilot:after {
+    opacity: 0;
+}
+
+.nav-link:hover .nav_icon--pilot::before {
+    opacity: 1;
+}
+
+.nav_link--active .nav_icon--pilot:before {
+    opacity: 1;
+}
+.nav_link--active .nav_icon--pilot:after {
+    opacity: 0;
+}

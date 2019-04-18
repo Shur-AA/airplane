@@ -1,0 +1,28 @@
+/*  ------footer------ */
+
+.footer__container {
+    height: 75px;
+    align-items: center;
+}
+
+.footer-wheredone, .footer-auther {
+    font-size: 14px;
+    color: #fff;
+}
+
+.ls-link {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-label {
+    width: 122px;
+    height: 42px;
+}
+
+.info {
+    font-size: 14px;
+    color: #fff;
+}

@@ -1,0 +1,74 @@
+/* ---------sidebar------------*/
+.toptariff {
+    border: 1px solid #e8e9ed;
+    border-radius: 3px;
+    margin-bottom: 23px;
+}
+
+
+.toptariff-name {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 23px 0 25px;
+    text-align: center;
+}
+
+.social {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialtext {
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.social-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    text-decoration: unset;
+    position: relative;
+    width: 21px;
+    height: 21px;
+}
+
+.logoVK {
+    position: absolute;
+    background: url("../../img/sprite.png") -118px -139px;
+}
+
+.logoFB {
+    position: absolute;
+    background: url("../../img/sprite.png") -154px -139px;
+}
+
+.logoGL {
+    position: absolute;
+    background: url("../../img/sprite.png") -10px -139px;
+}
+
+.logoTW {
+    position: absolute;
+    background: url("../../img/sprite.png") -82px -139px;
+}
+
+.logoML {
+    position: absolute;
+    background: url("../../img/sprite.png") -46px -139px;
+}

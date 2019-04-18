@@ -1,0 +1,32 @@
+.partners {
+    width: 100%;
+    border: 1px solid #e8e9ed;
+    border-radius: 3px;
+    margin-bottom: 22px;
+}
+
+.partners-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner {
+    flex: 1 0 255px;
+    margin-bottom: 50px;
+}
+
+.partner-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.partner-logo {
+    filter: grayscale(100%);
+    height: 50px;
+}
+
+.partner-logo:hover {
+    filter: none;
+    cursor: pointer;
+    transition: .4s;
+}
